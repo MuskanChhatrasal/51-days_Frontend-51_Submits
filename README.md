@@ -10,3 +10,4 @@
 | :---  | :------------- | :------------------ |  
 | Day-1 | Flying Text Animation  | https://ApprehensiveBoilingMicrokernel.mussu.repl.co |
 | Day-2 |  3D Touch Swipe Slider | https://ScrawnyLikelyCommunication.mussu.repl.co |
+| Day-3 |  Email Validation Check | https://RustyPortlyCells.mussu.repl.co |
