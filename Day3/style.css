@@ -1,0 +1,101 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #1b1b1b;
+}
+h3{
+    position: relative;
+    font-size: 30px;
+    color: #999;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+#form{
+    position: relative;
+    border: 2px solid #131313;
+    background: linear-gradient(#1e2024,#18181c);
+    border-radius: 4px;
+    overflow: hidden;
+}
+#form #email{
+    width: 400px;
+    outline: none;
+    background: transparent;
+    border: navajowhite;
+    padding: 12px 15px;
+    padding-right: 50px;
+    color: #fff;
+    font-size: 18px;
+}
+#form .indicator{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 10px;
+    height: 10px;
+    background: #555;
+    border-radius: 50%;
+}
+#form.valid .indicator{
+    background: #0f0;
+    box-shadow: 0 0 5px #0f0,
+                0 0 10px #0f0,
+                0 0 20px #0f0,
+                0 0 40px #0f0;
+}
+#form.invalid .indicator{
+    background: #f00;
+    box-shadow: 0 0 5px #f00,
+                0 0 10px #f00,
+                0 0 20px #f00,
+                0 0 40px #f00;
+}
+body.light{
+    background-color: #d1dae3;
+}
+.toggleClass{
+    position: absolute;
+    top: 30px;
+    right: 150px;
+    width: 20px;
+    height: 20px;
+    font-size: 18px;
+    border-radius: 50%;
+    background: #d1dae3;
+    color: #d1dae3;
+    font-family: consolas;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.toggleClass:before{
+    position: absolute;
+    left: 25px;
+    content: 'Light Mode';
+    white-space: nowrap;
+}
+body.light .toggleClass{
+    background: #091921;
+    color: #091921;
+}
+body.light .toggleClass:before{
+  
+    content: 'Dark Mode';
+    /* white-space: nowrap; */
+}
+body.light h3{
+    position: relative;
+    font-size: 30px;
+    color: black;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
