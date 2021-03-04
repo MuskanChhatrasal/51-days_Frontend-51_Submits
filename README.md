@@ -15,3 +15,4 @@
 | Day-5 |  Css Isometric Glass Layered Image Hover Effects | https://UnrulyAgonizingExtension.mussu.repl.co |
 | Day-6 |  Javascript Stopwatch | https://GrumpyMeaslyChief.mussu.repl.co |
 | Day-7 |  CSS 3D Foldable Card Hover Effects | https://InsubstantialMotherlyHypotenuse.mussu.repl.co |
+| Day-8 |  Weather App | https://SeagreenHatefulCrash.mussu.repl.co |
