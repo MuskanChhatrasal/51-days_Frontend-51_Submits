@@ -1,0 +1,39 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto",sans-serif;
+}
+section{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #111;
+    overflow: hidden;
+}
+section .text{
+    position: absolute;
+    color: #fff;
+    font-size: 1.5em;
+    user-select: none;
+    pointer-events: none;
+    animation: animate 7.5s linear infinite;
+}
+@keyframes animate{
+    0%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+section .text span{
+    position: absolute;
+    top: -100px;
+    text-transform: uppercase;
+    display: inline-block;
+    transform-origin: 0 100px;
+}
