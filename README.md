@@ -21,3 +21,4 @@
 | Day-11 |  Background Color Changer | https://BackgroundColor.mussu.repl.co |
 | Day-12 |  Circle Text Mousemove Animation Effect | https://AnimationEffects.mussu.repl.co |
 | Day-13 |  Fullscreen Animated Sticky Header | https://StickyHeader.mussu.repl.co |
+| Day-14 |  Glowing Checkbox Design With Icon | https://CheckboxDesign.mussu.repl.co |
