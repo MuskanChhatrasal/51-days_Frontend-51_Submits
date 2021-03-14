@@ -23,3 +23,4 @@
 | Day-13 |  Fullscreen Animated Sticky Header | https://StickyHeader.mussu.repl.co |
 | Day-14 |  Glowing Checkbox Design With Icon | https://CheckboxDesign.mussu.repl.co |
 | Day-15 |  Random Color Slot Generator | https://Random-Color-Slot.mussu.repl.co |
+| Day-16 |  CSS Loading Animation | https://AnimationLoader.mussu.repl.co |
