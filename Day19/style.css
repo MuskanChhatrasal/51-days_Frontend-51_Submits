@@ -1,0 +1,63 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #555;
+}
+.app{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 650px;
+    height: 650px;
+    font-family: "Raleway",sans-serif;
+}
+.app .controls{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background: #ddd;
+    padding: 0px 10px;
+}
+.app .controls .title{
+    font-weight: 600;
+    color: #222;
+    width: 80px;
+}
+.app .controls .type,
+.app .controls .size,
+.app .controls .color{
+    margin: 0px 10px;
+}
+.app .controls .type input{
+    display: none;
+}
+.app .controls .type label{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+    margin: 0px 2px;
+    cursor: pointer;
+}
+.app .controls .type input:checked + label{
+    background: #111;
+    color: #eee;
+    border-radius: 50%;
+}
+.app .controls .size input{
+    height: 10px;
+}
+.app .controls .actions{
+    flex: 1;
+    text-align: right;
+}
+.app .controls .actions button{
+    padding: 5px 10px;
+    cursor: pointer;
+}

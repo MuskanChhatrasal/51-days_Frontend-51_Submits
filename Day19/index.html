@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Paint App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" 
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+    <div class="app">
+        <div class="controls">
+            <div class="title">Sketch</div>
+            <div class="type">
+                <input type="radio" name="pen-type" id="pen-pencil" checked>
+                <label for="pen-pencil">
+                    <i class="fa fa-pencil"></i>
+                </label>
+                <input type="radio" name="pen-type" id="pen-brush">
+                <label for="pen-brush">
+                    <i class="fa fa-paint-brush"></i>
+                </label>
+            </div>
+            <div class="size">
+                <label for="pen-size">Size</label>
+                <input type="range" id="pen-size" min="1" max="50">
+            </div>
+            <div class="color">
+                <label for="pen-color">Color</label>
+                <input type="color" id="pen-color" value="#000">
+            </div>
+            <div class="actions">
+                <button id="reset-canvas">Reset</button>
+                <button id="save-canvas">Save</button>
+            </div>
+        </div>
+        <div id="canvas-wrapper"></div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.6/p5.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
