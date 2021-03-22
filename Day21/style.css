@@ -1,0 +1,158 @@
+body {
+  /* background-image: url(img.jfif); */
+  background-size: cover;
+}
+.modal-box {
+  font-family: "Roboto Condensed", sans-serif;
+}
+.modal-box .show-modal {
+  color: #fff;
+  background: #c80100;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: capitalize;
+  padding: 15px 55px;
+  margin: 0 auto;
+  margin-top: 330px;
+  border: none;
+  outline: none;
+  display: block;
+  transition: all 0.3s;
+  border: 4px solid white;
+  cursor: pointer;
+}
+.modal-box .show-modal:hover,
+.modal-box .show-modal:focus {
+  color: #fff;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+  border: 4px solid white;
+  cursor: pointer;
+}
+.modal-backdrop.in {
+  opacity: 0;
+}
+.modal-box .modal {
+  top: 70px !important;
+}
+.modal-box .modal-dialog {
+  width: 400px;
+  margin: 30px auto 10px;
+}
+.modal-box .modal-dialog .modal-content {
+  background: #dbecf6;
+  border-radius: 25px;
+  box-shadow: 0 0 25px -8px #555;
+  position: relative;
+  border: 4px solid white;
+}
+.modal-box .modal-dialog .modal-content:before {
+  content: "";
+  background: #c80100;
+  width: 100%;
+  height: 28%;
+  border-radius: 25px 25px 0 0;
+  position: absolute;
+  top: -1px;
+  left: 0;
+}
+.modal-box .modal-dialog .modal-content .close {
+  color: #c80100;
+  background-color: #fff;
+  font-size: 20px;
+  line-height: 28px;
+  height: 28px;
+  width: 28px;
+  opacity: 1;
+  border-radius: 50%;
+  box-shadow: 0 0 5px #555;
+  position: absolute;
+  left: auto;
+  right: -7px;
+  top: -7px;
+  z-index: 1;
+  transition: all 0.3s;
+}
+.modal-box .modal-dialog .modal-content .close span {
+  margin: 1px 0 0 0;
+  display: block;
+}
+.modal-box .modal-dialog .modal-content .close:hover {
+  color: #fff;
+  background-color: #c80100;
+  outline: none;
+}
+.modal-box .modal-dialog .modal-content .modal-body {
+  padding: 30px 30px !important;
+}
+.modal-box .modal-dialog .modal-content .modal-body .icon {
+  color: #f2f7fb;
+  font-size: 80px;
+  text-align: center;
+  line-height: 100px;
+  margin: 0 0 35px;
+}
+.modal-box .modal-dialog .modal-content .modal-body .title {
+  color: #c80100;
+  font-size: 45px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 0 10px 0;
+}
+.modal-box .modal-dialog .modal-content .modal-body .description {
+  color: #777;
+  font-size: 13px;
+  text-align: center;
+  margin: 0 0 15px;
+}
+.modal-content .form-control {
+  color: #c80100;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 1px;
+  height: 45px;
+  padding: 2px 15px 2px 15px;
+  border-radius: 50px;
+  display: inline-block;
+  transition: all 0.3s;
+}
+.modal-content .form-control::placeholder {
+  color: #909090;
+  font-size: 14px;
+}
+.modal-content .form-control:hover,
+.modal-content .form-control:focus {
+  box-shadow: 0 0 0 transparent, 0 0 0 transparent, 0 0 0 transparent;
+}
+.modal-box .modal-dialog .modal-content .modal-body .subscribe {
+  color: #fff;
+  background: #c80100;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 10px 38px;
+  margin: 0 auto;
+  border: none;
+  border-radius: 50px;
+  overflow: hidden;
+  display: block;
+  position: relative;
+  z-index: 1;
+  transition: all 0.3s;
+}
+.modal-box .modal-dialog .modal-content .modal-body .subscribe:before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  background: #c80100;
+  border-radius: 50px;
+  transform: scale(0.97, 0.85);
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  transition: all 0.3s;
+}
