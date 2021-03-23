@@ -29,3 +29,4 @@
 | Day-19 |  Simple Paint App | https://PaintApp.mussu.repl.co |
 | Day-20 |  Scratch-Off Reveal | https://ScratchOffReveal.mussu.repl.co |
 | Day-21 |  Popup Subscription Box | https://Popup.mussu.repl.co |
+| Day-22 |  Rotating Text Around The Earth | https://RotatingText.mussu.repl.co |
