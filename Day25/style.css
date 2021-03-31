@@ -1,0 +1,108 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+    box-sizing: border-box;
+    background: #151515;
+}
+div{
+    position: relative;
+}
+#rangeValue{
+    position: relative;
+    box-sizing: border-box;
+    text-align: center;
+    display: block;
+    font-size: 10em;
+    color: #22ff08;
+    font-weight: 800;
+    z-index: 1;
+}
+#rangeValue::after{
+    content: '%';
+}
+.range{
+    position: relative;
+    width: 500px;
+    height: 30px;
+    appearance: none;
+    background: rgba(0,0,0,0.8);
+    outline: none;
+    border-radius: 30px;
+    border: 2px solid #000;
+    box-shadow: 0 0 0 2px #151515,
+    inset 0 0 5px #000;
+    z-index: 1;
+    overflow: hidden;
+}
+.range::-webkit-slider-thumb{
+    appearance: none;
+    width: 30px;
+    height: 30px;
+    background: #22ff08;
+    cursor: pointer;
+    border: 10px solid #222;
+    border-radius: 50%;
+    box-shadow: -415px 0 0 400px #22ff08;
+}
+#fillRangeTopLeft{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 50%;
+    z-index: 2;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.25);
+    border-right: 1px solid rgba(255,255,255,0.05);
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    pointer-events: none;
+    box-sizing: border-box;
+    backdrop-filter: blur(15px);
+}
+#fillRangeTopRight{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 50%;
+    z-index: 2;
+    box-shadow: 0 -5px 15px rgba(0,0,0,0.25);
+    border-left: 1px solid rgba(255,255,255,0.05);
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    pointer-events: none;
+    box-sizing: border-box;
+    backdrop-filter: blur(15px);
+}
+#fillRangeBottomLeft{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    z-index: 2;
+    box-shadow: -5px 0 15px rgba(0,0,0,0.25);
+    border-right: 1px solid rgba(255,255,255,0.05);
+    border-top: 1px solid rgba(255,255,255,0.05);
+    pointer-events: none;
+    box-sizing: border-box;
+    backdrop-filter: blur(15px);
+}
+#fillRangeBottomRight{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    height: 50%;
+    z-index: 2;
+    box-shadow: 5px 0 15px rgba(0,0,0,0.25);
+    border-left: 1px solid rgba(255,255,255,0.05);
+    border-top: 1px solid rgba(255,255,255,0.05);
+    pointer-events: none;
+    box-sizing: border-box;
+    backdrop-filter: blur(15px);
+}
