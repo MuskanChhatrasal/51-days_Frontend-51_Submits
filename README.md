@@ -32,3 +32,4 @@
 | Day-22 |  Rotating Text Around The Earth | https://RotatingText.mussu.repl.co |
 | Day-23 |  Real Glassmorphism | https://RealGlassmorphism.mussu.repl.co |
 | Day-24 |  Neumorphic Pricing Cards | https://NeumorphicPricingCards.mussu.repl.co |
+| Day-25 |  Glass Shutter | https://GlassShutter.mussu.repl.co |
