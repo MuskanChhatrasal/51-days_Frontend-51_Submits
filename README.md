@@ -38,3 +38,4 @@
 | Day-28 | Play Paused Video Toggle using Javascript | https://PlayPausedVideo.mussu.repl.co |
 | Day-29 | Javascript Text Animation Effects | https://SmokeEffect.mussu.repl.co |
 | Day-30 | Parallax Scrolling Website | https://ParallaxScrollingWebsite.mussu.repl.co |
+| Day-31 | Card Hover Effect | https://CardHoverEffect.mussu.repl.co |
