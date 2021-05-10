@@ -1,0 +1,134 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:100,100italic,300,300italic,regular,italic,700,700italic,900,900italic);
+/* width */
+::-webkit-scrollbar {
+    width: 7px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato',sans-serif;
+}
+.color-primary{
+    color: #ff3d00;
+}
+.wrapper{
+    position: relative;
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+    background-color: #ff3d00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact_manager{
+    position: relative;
+    width: 350px;
+    height: 550px;
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.2);
+}
+.contact_manager::before{
+    content: "";
+    position: absolute;
+    left: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 90%;
+    background-color: #fff;
+    border-radius: 3px;
+    z-index: -1;
+    box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.2);
+}
+.contact_manager::after{
+    content: "";
+    position: absolute;
+    right: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 90%;
+    background-color: #fff;
+    border-radius: 3px;
+    z-index: -1;
+    box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.2);
+}
+.contact_header{
+    text-align: center;
+    padding: 20px;
+}
+.contact_logo{
+    color: #ff3d00;
+}
+.contact_heading{
+    color: #ff3d00;
+    letter-spacing: 5px;
+}
+.contact_form{
+   padding: 0 20px;
+}
+.contact_form input{
+    color: #fff;
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 15px 20px;
+    background-color: #ff3d00;
+    border: none;
+    border-radius: 27px;
+}
+.contact_form button[type="submit"]{
+    background-color: #fff;
+    border: 2px solid #ff3d00;
+    color: #ff3d00;
+    padding: 10px 20px;
+    border-radius: 27px;
+}
+input:focus{
+   outline: none;
+}
+::placeholder{
+    color: #fff;
+    opacity: 1;
+}
+.contact_body{
+    width: 100%;
+    height: 180px;
+    padding: 20px 20px;
+    overflow-y: scroll;
+}
+.contact_item{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.2);
+}
+.contact_item_info{
+    margin-left: 10px;
+    margin-right: auto;
+}
