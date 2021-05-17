@@ -40,3 +40,4 @@
 | Day-30 | Parallax Scrolling Website | https://ParallaxScrollingWebsite.mussu.repl.co |
 | Day-31 | Card Hover Effect | https://CardHoverEffect.mussu.repl.co |
 | Day-32 | Contact Manager | https://ContactManager.mussu.repl.co |
+| Day-33 | CSS Animation Effect | https://AnimationEffect.mussu.repl.co |
